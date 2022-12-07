@@ -1,0 +1,29 @@
+{
+  "name": "trcbookingapi",
+  "version": "1.0.0",
+  "description": "Typescript NodeJs API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Murasakin/trcbookingapi.git"
+  },
+  "author": "Gustavo F. Balbino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Murasakin/trcbookingapi/issues"
+  },
+  "homepage": "https://github.com/Murasakin/trcbookingapi#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^18.11.11",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
